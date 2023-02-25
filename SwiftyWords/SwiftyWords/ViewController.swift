@@ -83,7 +83,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func submitTapped(_ sender: AnyObject) {
-        if let solutionPosition = solutions.index(of: currentAnswer.text!) {
+        if let solutionPosition = solutions.firstIndex(of: currentAnswer.text!) {
             activatedButtons.removeAll()
 
             var splitAnswers = answersLabel.text!.components(separatedBy: "\n")
