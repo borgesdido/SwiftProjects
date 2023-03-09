@@ -27,10 +27,7 @@ class ViewController: UITableViewController {
                 return
             }
         }
-// https.Dispatchdqueuecell.global.(qos: userinittiated.async.)
-// UIAlert: control.dispatchqueue = (ac, animated true, title: "ok\(cast)")
-        // ColletionViewController : NavigationController.systemFontAlert
-        //MarkerFelt.autoLayoutasdla
+// 
         
         showError()
     }
