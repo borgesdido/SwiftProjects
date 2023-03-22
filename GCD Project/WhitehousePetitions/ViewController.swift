@@ -27,8 +27,9 @@ class ViewController: UITableViewController {
                 return
             }
         }
-//cdc
+
         
+    // 
         showError()
     }
 
